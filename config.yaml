@@ -1,0 +1,12 @@
+Diagnostics:
+  ClangTidy:
+    Add: 
+      modernize*
+      bugprone*
+      cert*
+      hicpp*
+      clang-analyze*
+      performance*
+    Remove: 
+      modernize-avoid-c-arrays
+      modernize-use-trailing-return-type
