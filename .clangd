@@ -1,13 +1,9 @@
 Diagnostics:
   ClangTidy:
-    Add: [
-      modernize*,
-      bugprone*,
-      cert*,
-      clang-analyze*,
-      performance*
-    ]
-    Remove: [
-      modernize-use-trailing-return-type, 
-      modernize-avoid-c-arrays
-    ] 
+    Add: [modernize*, bugprone*, cert*, clang-analyze*, performance*]
+    Remove:
+      [
+        modernize-use-trailing-return-type,
+        modernize-avoid-c-arrays,
+        performance-no-int-to-ptr,
+      ]
